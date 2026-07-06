@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.shop.ui.ProductPanel">
+  <grid id="27dc6" binding="prodPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="836" height="839"/>
+    </constraints>
+    <properties>
+      <background color="-9079591"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="83505" binding="pnlToolbar" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d3709" class="javax.swing.JLabel" binding="lblSearch">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Tìm kiếm"/>
+            </properties>
+          </component>
+          <component id="877f6" class="javax.swing.JTextField" binding="txtSearchProd">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="77851" class="javax.swing.JButton" binding="butSearch">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Search..."/>
+            </properties>
+          </component>
+          <component id="5fb0e" class="javax.swing.JButton" binding="butAdd">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Thêm"/>
+            </properties>
+          </component>
+          <component id="64524" class="javax.swing.JButton" binding="butChange">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Sửa"/>
+            </properties>
+          </component>
+          <component id="7e9b9" class="javax.swing.JButton" binding="butDelete">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Xóa"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="aee71" binding="scrollProd">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1774849"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="635ec" class="javax.swing.JTable" binding="tblProd">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-1774849"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="5fa6d" binding="pnlStatus" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="31b74" class="javax.swing.JLabel" binding="lblProdStatus">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Tổng: 0 sản phẩm"/>
+            </properties>
+          </component>
+          <component id="28e69" class="javax.swing.JButton" binding="butExportCSV">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Xuất ra file .csv"/>
+            </properties>
+          </component>
+          <hspacer id="2596f">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="Java_Final:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_Final_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Java_Final.jar">
+        <element id="module-output" name="Java_Final" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../mysql-connector-j-9.6.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../flatlaf-3.7.1.jar" />
+    </root>
+  </artifact>
+</component>
